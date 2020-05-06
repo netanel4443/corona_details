@@ -1,0 +1,4 @@
+
+enum MainEvents{Idle,GetCoronaDetailsFromApi}
+
+
