@@ -6,8 +6,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DetailsListViewBuilder {
+
+
+
   Widget detailsList(Set<CoronaDetailsData> list) {
-    return Flexible(
+
+    return  Flexible(
       child: ListView.builder(
           scrollDirection: Axis.vertical,
           shrinkWrap: true,

@@ -1,4 +1,4 @@
 
-enum MainEvents{Idle,GetCoronaDetailsFromApi}
+enum MainEvents{Idle,GetCoronaDetailsFromApi,Load}
 
 

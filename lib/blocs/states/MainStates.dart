@@ -11,3 +11,8 @@ class RetrieveCoronaDetailsState extends MainStates{
   RetrieveCoronaDetailsState(this.list);
 }
 class ShowProgressBar extends MainStates{}
+
+class RefreshList extends MainStates{
+  Set<CoronaDetailsData> set=Set();
+  RefreshList(this.set);
+}
